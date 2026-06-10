@@ -25,10 +25,10 @@ header p {
   margin: 5px 0;
 }
 header img {
-  width: 100%;          /* span full width of header */
-  max-height: 120px;    /* cap ribbon height */
-  object-fit: cover;    /* crop neatly if too tall */
-  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 120px;   /* controls ribbon thickness */
+  object-fit: contain; /* keeps full text visible */
 }
 
 @media (max-width: 600px) {
