@@ -25,9 +25,10 @@ header p {
   margin: 5px 0;
 }
 header img {
-  max-width: 100% !important;
-  height: 60px !important;
-  object-fit: contain !important;
+  height: 60px;        /* force height */
+  width: auto;         /* keep proportions */
+  display: block;      /* removes inline spacing issues */
+  margin: 0 auto;      /* centers the ribbon */
 }
 
 nav a {
