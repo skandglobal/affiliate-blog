@@ -25,9 +25,14 @@ header p {
   margin: 5px 0;
 }
 header img {
-  width: 300px;        /* set a fixed width */
-  height: auto;        /* auto-adjust height */
-  object-fit: contain;
+  height: 120px;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  header img {
+    height: 60px;   /* smaller on phones */
+  }
 }
 
 nav a {
