@@ -33,7 +33,7 @@ header img {
 
 @media (max-width: 600px) {
   header img {
-    height: 60px;   /* smaller on phones */
+    max-height: 60px;   /* slimmer ribbon on phones */
   }
 }
 
