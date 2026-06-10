@@ -24,6 +24,10 @@ header h1 {
 header p {
   margin: 5px 0;
 }
+header img {
+  max-width: 100%;
+  height: auto;
+}
 
 nav a {
   color: #ffcc00; /* gold */
