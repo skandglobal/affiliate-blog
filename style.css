@@ -26,7 +26,8 @@ header p {
 }
 header img {
   max-width: 100%;
-  height: auto;
+  height: 120px;   /* adjust this number until it looks right */
+  object-fit: contain;
 }
 
 nav a {
